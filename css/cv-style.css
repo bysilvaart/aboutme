@@ -129,7 +129,7 @@ p b{
     height: var(--icon-course);
 }
 
-.course__item, .section__title, .contact-me__item, .experience__item{
+.course__item, .section__title, .contact-me__item, .experience__item, .skills__item{
     display: flex;
     flex-direction: row;
     gap: 12px;
@@ -159,7 +159,7 @@ p b{
     background: var(--background-items);
 }
 
-.experience__item{
+.experience__item, .skills__item{
     text-decoration: none;
     cursor: pointer;
     color: var(--not-black);
@@ -170,6 +170,18 @@ p b{
     border: 1px solid var(--border-card-color);
     background: rgba(255, 255, 255, 0.30);
 }
+
+.experience__item>img{
+    width: 40px;
+    height: 40px;
+}
+
+.skills__item>img{
+    width: 24px;
+    height: 24px;
+}
+
+
 
 
 h4.skills__item{
