@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&family=Lato:wght@300;400;700;800&display=swap');
 
 :root{
     --background: #f8f8f8;
@@ -9,6 +9,7 @@
     --secundary-button--normal:#353535;
     --secundary-button--hover:#202020;
     --not-black: #202020;
+    --border-card-color: #A36ADD26;
     font-family:'Lato', sans-serif;
 
    /* CV PAGE */

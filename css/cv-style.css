@@ -88,11 +88,19 @@ p b{
 }
 
 .section__title{
-    background: var(--background-items);
+    background-image: var(--primary-button--normal);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     width: auto;
-    height: 45px;
+    height: 32px;
     border-radius: 15px;
-    padding-left: 15px;
+    
+    font-family: Jaldi;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 22px;
 }
 .section{
     width: 100%;
@@ -100,8 +108,7 @@ p b{
 
 
 .group{
-    gap: 10px;
-    padding-left: 15px;
+    gap: 4px;
 }
 
 .group-courses{
@@ -122,16 +129,11 @@ p b{
     height: var(--icon-course);
 }
 
-.course__item, .section__title, .contact-me__item{
+.course__item, .section__title, .contact-me__item, .experience__item{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 12px;
     align-items: center;
-}
-
-.contact-me__item>img{
-    width: 30px;
-    height: 30px;
 }
 
 .contact-me__item{
@@ -139,28 +141,42 @@ p b{
     cursor: pointer;
     color: var(--not-black);
     width: 100%;
-    height: 40px;
-    border-radius: 10px;
+    max-height: 56px;
+    padding: 12px;
+
+    border-radius: 12px;
+    border: 1px solid var(--border-card-color);
+    background: rgba(255, 255, 255, 0.30);
 }
+
+.contact-me__item>img{
+    width: 30px;
+    height: 30px;
+}
+
 
 .contact-me__item:hover{
     background: var(--background-items);
-    padding-left: 5px;
 }
+
+.experience__item{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--not-black);
+    width: 100%;
+    padding: 12px;
+
+    border-radius: 12px;
+    border: 1px solid var(--border-card-color);
+    background: rgba(255, 255, 255, 0.30);
+}
+
 
 h4.skills__item{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
-}
-
-.skills__item::before{
-    content: "";
-    background: var(--primary-button--normal);
-    width: 5px;
-    height: 15px;
-    border-radius: 3px;
 }
 
 .card__courses{
