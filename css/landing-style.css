@@ -1,0 +1,163 @@
+body{
+    background: var(--background);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+
+}
+
+.container, .title, .profile, .profile__work, .profile__cv, .contact, .container__main-content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.container__main-content{
+    gap: 30px;
+}
+
+.container{
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.title{
+    gap: 5px;
+}
+
+.title__name{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 9.0rem;
+    line-height: 6.5rem;
+    text-align: center;
+    padding-top: 20px;
+    
+  
+}
+
+.title__job, .title__job>b, .title__job>a{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--not-black);
+}
+
+.title__job>b{
+    font-weight: 700;
+}
+
+.profile{
+    gap: 20px;
+}
+
+.profile__work{
+    gap: 10px;
+}
+
+button{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: grid;
+    place-content: center;   
+}
+
+.primary-button{
+    background: var(--primary-button--normal);
+}
+
+.primary-button:hover{
+    background: var(--primary-button--hover);
+}
+
+.secundary-button{
+    background: var(--secundary-button--normal);
+}
+
+.secundary-button:hover{
+    background: var(--secundary-button--hover);
+}
+
+a{
+    text-decoration: none;
+}
+
+.button>a{
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.button__text{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+.contact>p, .contact>p>b{
+    font-size: 1.5rem;
+}
+
+@media (min-width:720px){
+    .container__main-content{
+        flex-direction: row;
+        gap: 90px;
+        padding-bottom: 100px;
+        
+    }
+
+    .button{
+        width: 300px;
+        height: 6rem;
+    }
+
+    .title__name{
+        font-family: 'Jaldi', sans-serif;
+        font-size: 14.0rem;
+        line-height: 10rem;
+        text-align: left;
+    }
+
+    .contact{
+        flex-direction: row;
+        gap: 5px;
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .contact>p, .contact>p>b{
+        font-size: 2.2rem;
+    }
+
+    .title__job, .title__job>b, .title__job>a{
+        font-size: 3.2rem;
+        line-height: 3rem;
+        text-align: left;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--not-black);
+    }
+
+    .title{
+        align-items: flex-start;
+    }
+
+    .title__job>b{
+        font-weight: 700;
+    }
+}

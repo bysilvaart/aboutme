@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&family=Lato:wght@300;400;700&display=swap');
+
+:root{
+    --background: #f8f8f8;
+    --background-items: linear-gradient(274.43deg, rgba(163, 106, 221, 0.1) 0%, rgba(90, 150, 243, 0.1) 100%);
+    --primary-button--normal: linear-gradient(274.43deg, #A36ADD 0%, #5A96F3 100%);
+    --primary-button--hover: #5A96F3;
+    --secundary-button--normal:#353535;
+    --secundary-button--hover:#202020;
+    --not-black: #202020;
+    font-family:'Lato', sans-serif;
+
+   /* CV PAGE */
+   --icon-course: 30px;
+    /* END CV PAGE */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 64.5%;
+}
+
+.main-title__color{
+    background-image: var(--primary-button--normal);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
