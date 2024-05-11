@@ -1,11 +1,13 @@
 body{
-    background: radial-gradient(100% 100% at 100% 100%, rgba(90, 150, 243, 0.08) 3.86%, rgba(163, 106, 221, 0.08) 53.74%, rgba(255, 255, 255, 0.04) 83.8%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(25.25% 94.45% at 99.12% 100.82%, rgba(0, 127, 182, 0.10) 0%, rgba(107, 25, 241, 0.10) 34.73%, rgba(255, 255, 255, 0.05) 61.89%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(8.97% 37.52% at 3.66% 3.11%, rgba(104, 12, 254, 0.10) 0%, rgba(251, 17, 200, 0.10) 34.73%, rgba(255, 255, 255, 0.05) 61.89%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(35.36% 88.78% at 5.88% 5.79%, rgba(11, 34, 238, 0.08) 0%, rgba(111, 55, 230, 0.08) 34.73%, rgba(255, 255, 255, 0.04) 61.89%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(89% 141.42% at 0% 0%, rgba(90, 150, 243, 0.10) 0%, rgba(163, 106, 221, 0.10) 36.22%, rgba(255, 255, 255, 0.05) 72.11%, rgba(255, 255, 255, 0.00) 100%), #000;
-    width: 100vw;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(30% 60% at 5% 10%, #00134BFF 0%, #2F004AA8 43%, #00000000 100%),radial-gradient(60% 100% at 100% 90%, #1B103BFF 0%, #2B103BBA 22%, #06112F00 100%),radial-gradient(80% 120% at 10% 20%, #06112FFF 0%, #000000FF 100%);    width: 100vw;
     height: 100%;
     display: flex;
     justify-content: center;
     align-content: flex-start;
     padding-top: 50px;
+    overflow: scroll;
     
 }
 
