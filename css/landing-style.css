@@ -86,13 +86,13 @@ button{
     background: var(--primary-button--hover);
 }
 
-.secundary-button{
+.secondary-button{
     border-radius: 16px;
     border: 1px solid #A36ADD;
     background: none;
 }
 
-.secundary-button:hover{
+.secondary-button:hover{
     background: #A36ADD;
 }
 
