@@ -48,6 +48,12 @@ h6{
     font-weight: 300;
 }
 
+h6>b{
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    font-weight: 500;  
+}
+
 .main-section, .designs-section{
     display: flex;
     flex-direction: column;
@@ -91,7 +97,7 @@ h6{
     color: #fafafa;
 }
 
-.main-section__text>h6:nth-child(3){
+.main-section__text>h6:nth-child(4){
     color: #A4A7AC;
 }
 
@@ -138,7 +144,8 @@ h6{
     justify-content: center;
     align-items: center;
     border-radius: 0.4rem;
-    background: rgba(255, 255, 255, 0.20);
+    border: 1px solid #07233F;
+    background: #081828;
     backdrop-filter: blur(2px);
 
     color: #fff;
@@ -181,6 +188,10 @@ h6{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.text-wip{
+    color: #A4A7AC;
 }
 
 @media (max-width: 480px){
