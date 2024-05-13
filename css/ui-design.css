@@ -1,16 +1,12 @@
 body{
-   /* background-size: 100% 100%;
-    background-position: 0px 0px,0px 0px,0px 0px;
+    background-size: 100% 100%;
     background-image: radial-gradient(30% 60% at 5% 10%, #00134BFF 0%, #2F004AA8 43%, #00000000 100%),radial-gradient(60% 100% at 100% 90%, #1B103BFF 0%, #2B103BBA 22%, #06112F00 100%),radial-gradient(80% 120% at 10% 20%, #06112FFF 0%, #000000FF 100%);
-    */
-    background-color: #000;
     width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-content: flex-start;
-    padding: 8.0rem 0;
-    
-    
+    overflow-y: hidden;
 }
 
 h2,h3{
@@ -52,16 +48,20 @@ h6{
     font-weight: 300;
 }
 
-.container, .main-section, .designs-section{
+.main-section, .designs-section{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     gap: 240px;
-    padding: 1rem;
-    max-width: 960px;
+    width: 100%;
+    padding: 8.0rem 1rem;
+    overflow-y: scroll;
+    align-items: center;
 }
 
 .container::-webkit-scrollbar {
@@ -69,9 +69,9 @@ h6{
   }
 
 .main-section{
-    align-items: flex-start;
     gap: 32px;
-    align-self: stretch;
+    width: 100%;
+    max-width: 960px;
 }
 
 .main-section__text{
@@ -96,11 +96,9 @@ h6{
 }
 
 .designs-section{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 160px;
-    align-self: stretch;
+    width: 100%;
+    max-width: 960px;
 }
 
 .card{
@@ -170,6 +168,9 @@ h6{
     text-decoration: none;
 }
 
+.read-it:hover{
+    background-color: #A36ADD;
+}
 
 .read-it>h4{
     text-decoration: none;
