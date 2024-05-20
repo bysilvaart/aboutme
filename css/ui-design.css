@@ -72,7 +72,37 @@ h6>b{
 
 .container::-webkit-scrollbar {
     display: none;
-  }
+}
+
+nav, .navbar-container, .navbar-items{
+    display: flex;
+}
+
+.navbar-container{
+    width: 100%;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    max-width: 960px;
+    justify-content: space-between;
+}
+
+.navbar-items{
+    align-items: center;
+    gap: 56px;
+}
+
+.navbar-items a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
 
 .main-section{
     gap: 32px;
@@ -195,6 +225,11 @@ h6>b{
 }
 
 @media (max-width: 480px){
+
+    .navbar-container{
+        display: none;
+    }
+
     .container{
         padding: 0 2rem;
     }
