@@ -5,6 +5,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
+    gap: 80px;
     place-content: start center;
 }
 
@@ -218,6 +219,37 @@ h4.skills__item{
     padding-left: 10px;
 }
 
+
+nav, .navbar-container, .navbar-items{
+    display: none;
+}
+
+.navbar-container{
+    width: 100%;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    max-width: 960px;
+    justify-content: space-between;
+}
+
+.navbar-items{
+    align-items: center;
+    gap: 56px;
+}
+
+.navbar-items a{
+    color: #202020;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
 /* RESPONSIVE DESIGN */
 
 @media (min-width: 1024px) {
@@ -226,6 +258,11 @@ h4.skills__item{
         place-content: center;
         height: 100vh;
     }
+
+    nav, .navbar-container, .navbar-items{
+        display: flex;
+    }
+    
     .cv-container{
         flex-direction: row;
         gap: 80px;
