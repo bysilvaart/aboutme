@@ -119,6 +119,10 @@ a{
     font-weight: 400;
 }
 
+.profile__cv .button__text{
+    color: #ffffff;
+}
+
 
 .contact>p, .contact>p>b{
     font-size: 1.5rem;
