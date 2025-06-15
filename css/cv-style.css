@@ -219,6 +219,21 @@ h4.skills__item{
     padding-left: 10px;
 }
 
+[data-theme="dark"] .contact-me__item,
+[data-theme="dark"] .experience__item,
+[data-theme="dark"] .skills__item{
+    background: var(--background);
+    border: none;
+    border-radius: 15px;
+}
+
+[data-theme="dark"] .contact-me__item:hover,
+[data-theme="dark"] .experience__item:hover,
+[data-theme="dark"] .skills__item:hover{
+    background: var(--background-items);
+    padding-left: 10px;
+}
+
 
 nav, .navbar-container, .navbar-items{
     display: none;

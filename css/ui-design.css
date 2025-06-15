@@ -20,7 +20,7 @@ h2{
 }
 
 h3{
-    color: #FFF ;
+    color: var(--not-black);
     font-size: 3.2rem;
     font-style: normal;
     line-height: 100%;
@@ -32,14 +32,13 @@ h6,p{
     
 }
 
-p{  
-    color: #C7C7C7; 
+p{
+    color: var(--not-black);
     font-family: "Inter", sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    color: #C7C7C7;
 }
 
 h6{
@@ -124,11 +123,11 @@ nav{
     font-style: normal;
     font-weight: 300;
     line-height: 3.2rem; /* 160% */
-    color: #fafafa;
+    color: var(--not-black);
 }
 
 .main-section__text>h6:nth-child(4){
-    color: #A4A7AC;
+    color: var(--not-black);
 }
 
 .designs-section{
@@ -144,7 +143,7 @@ nav{
     max-width: 920px;
     align-items: center;
     gap: 56px;
-    color: #C7C7C7;
+    color: var(--not-black);
 }
 
 .card>img{
@@ -221,7 +220,7 @@ nav{
 }
 
 .text-wip{
-    color: #A4A7AC;
+    color: var(--not-black);
 }
 
 @media (max-width: 480px){

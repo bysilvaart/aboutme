@@ -4,8 +4,8 @@
 
 
 :root{
-    --background: #f8f8f8;
-    --background-gradient: #f8f8f8;
+    --background: #ffffff;
+    --background-gradient: radial-gradient(30% 60% at 5% 10%, rgba(163, 106, 221, 0.3) 0%, rgba(255, 255, 255, 0) 60%), radial-gradient(60% 100% at 100% 90%, rgba(90, 150, 243, 0.3) 0%, rgba(255, 255, 255, 0) 70%), radial-gradient(80% 120% at 10% 20%, #ffffff 0%, #f8f8f8 100%);
     --background-items: linear-gradient(274.43deg, rgba(163, 106, 221, 0.1) 0%, rgba(90, 150, 243, 0.1) 100%);
     --primary-button--normal: linear-gradient(274.43deg, #A36ADD 0%, #5A96F3 100%);
     --primary-button--hover: #5A96F3;
@@ -13,6 +13,7 @@
     --secundary-button--hover:#202020;
     --not-black: #202020;
     --navbar-link-color: #202020;
+    --button-text: #000000;
     --border-card-color: #A36ADD26;
     font-family:'Lato', sans-serif;
 
@@ -26,6 +27,7 @@
     --background-gradient: radial-gradient(30% 60% at 5% 10%, #00134BFF 0%, #2F004AA8 43%, #00000000 100%),radial-gradient(60% 100% at 100% 90%, #1B103BFF 0%, #2B103BBA 22%, #06112F00 100%),radial-gradient(80% 120% at 10% 20%, #06112FFF 0%, #000000FF 100%);
     --navbar-link-color: #ffffff;
     --not-black: #e7e7e7;
+    --button-text: #ffffff;
 }
 
 *{
@@ -33,6 +35,11 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 64.5%;
+}
+
+body{
+    color: var(--not-black);
+    background: var(--background);
 }
 
 .main-title__color{
