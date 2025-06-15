@@ -11,23 +11,7 @@
     <link rel="stylesheet" href="css/front-design.css">
 </head>
 <body>
-    <div class="navbar-container">
-        <nav>
-            <a href="./index.html">
-                <img src="img/LogoJoseSilva.svg" alt="">
-            </a>
-            <div class="navbar-items">
-                <a href="./index.html">Inicio</a>
-                <a href="./ui-design.html">Diseño</a>
-                <a href="./cv.html" class="read-it">
-                    <h4>Curriculum</h4>
-                </a>
-                <button class="button-icon" id="themeToggle" aria-label="Cambiar tema">
-                    <span id="themeToggleIcon"></span>
-                </button>
-            </div>
-        </nav>
-    </div>
+    <header id="navbar" class="navbar-container"></header>
     <div class="container page-container">
         <div class="main-section">
             <a href="http://josesilva.cl">
@@ -55,8 +39,8 @@
                     <p>Participé en un desafío de Platzi que consitía en realizar un cómic animado en 2 semanas.
                         En este proyecto combiné varias de mis habilidades y quedé entre los 3 mejores participantes</p>
                     <div class="buttons">                 
-                        <a href="https://bysilvaart.github.io/superhero/" class="button primary-button" target="_blank"><h4 class="button__text">Lée el manga aquí</h4></a>
-                        <a href="https://platzi.com/blog/proyectos-liga-creatividad/" class="button secundary-button" target="_blank"><h4 class="button__text">Revisa el desafío Platzi</h4></a>
+                        <a href="https://bysilvaart.github.io/superhero/" class="button primary-button" target="_blank" rel="noopener noreferrer"><h4 class="button__text">Lée el manga aquí</h4></a>
+                        <a href="https://platzi.com/blog/proyectos-liga-creatividad/" class="button secundary-button" target="_blank" rel="noopener noreferrer"><h4 class="button__text">Revisa el desafío Platzi</h4></a>
                     </div>
                 </div>
             </div>     
@@ -67,7 +51,7 @@
                     <h3 class="main-title__color">dentalsajorge.cl</h3>
                     <p>Trabajé en el diseño y estoy trabajando en la maquetación del sitio web de la clínica dental San Jorge, ubicada en la ciudad de Curicó</p>
                     <div class="buttons">                 
-                        <a href="https://bysilvaart.github.io/sanjorgewebsite/" class="button secundary-button" target="_blank"><h4 class="button__text">Ir al sitio web</h4></a>
+                        <a href="https://bysilvaart.github.io/sanjorgewebsite/" class="button secundary-button" target="_blank" rel="noopener noreferrer"><h4 class="button__text">Ir al sitio web</h4></a>
                     </div>
                 </div>
             </div>    
@@ -78,7 +62,7 @@
                     <h3 class="main-title__color">margaritavignolo.cl</h3>
                     <p>Trabajé en el diseño y maquetación del sitio web de Margarita Vignolo. Se dedican al rubro de hostelerías y botillerias en la ciudad de Molina</p>
                     <div class="buttons">                 
-                        <a href="https://margaritavignolo.cl" class="button secundary-button" target="_blank"><h4 class="button__text">Ir al sitio web</h4></a>
+                        <a href="https://margaritavignolo.cl" class="button secundary-button" target="_blank" rel="noopener noreferrer"><h4 class="button__text">Ir al sitio web</h4></a>
                     </div>
                 </div>
             </div>    
@@ -96,6 +80,7 @@
             </a>
         </div>
     </div>
+    <script src="js/navbar.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>
 </html>

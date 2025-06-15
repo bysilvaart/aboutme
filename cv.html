@@ -14,21 +14,7 @@
 </head>
 <body>
     <div class="container page-container">
-    <div class="navbar-container">
-        <nav>
-            <a href="./index.html">
-                <img src="img/LogoJoseSilva.svg"alt="">
-            </a>
-            <div class="navbar-items">
-                <a href="./index.html">Inicio</a>
-                <a href="./ui-design.html">Diseño</a>
-                <a href="./drawing-design.html">Dibujos</a>
-                <button class="button-icon" id="themeToggle" aria-label="Cambiar tema">
-                    <span id="themeToggleIcon"></span>
-                </button>
-            </div>
-        </nav>
-    </div>
+    <header id="navbar" class="navbar-container" data-current="./cv.html"></header>
     <div class="cv-container">
 
 
@@ -53,15 +39,15 @@
             <div class="section">
                 <h3 class="section__title">Contáctame</h3>
                 <div class="group">
-                    <a href="https://www.linkedin.com/in/jose-silvaart" class="contact-me__item" target="_blank">
+                    <a href="https://www.linkedin.com/in/jose-silvaart" class="contact-me__item" target="_blank" rel="noopener noreferrer">
                         <img src="img/icon__linkedin.svg"></img>
                         <h4>Linkedin: <b>jose-silvaart</b></h4>
                     </a>
-                    <a href="https://www.github.com/bysilvaart" class="contact-me__item" target="_blank">
+                    <a href="https://www.github.com/bysilvaart" class="contact-me__item" target="_blank" rel="noopener noreferrer">
                         <img src="img/icon__github.svg"></img>
                         <h4>Github: <b>bysilvaart</b></h4>
                     </a>
-                    <a href="mailto: contacto@josesilva.cl" class="contact-me__item" target="_blank">
+                    <a href="mailto: contacto@josesilva.cl" class="contact-me__item" target="_blank" rel="noopener noreferrer">
                         <img src="img/icon__email.svg"></img>
                         <h4><b>1705.jlss</b>@gmail.com</h4>
                     </a>
@@ -157,27 +143,27 @@
             <div class="card__courses" id="courses">
                 <h3 class="section__title">Cursos</h3>
                 <div class="group-courses">
-                    <a href="https://platzi.com/p/bysilvaart/curso/1961-figma/diploma/detalle/" class="course__item" target="_blank">
+                    <a href="https://platzi.com/p/bysilvaart/curso/1961-figma/diploma/detalle/" class="course__item" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.platzi.com/media/achievements/badge-figma-ec1b779d-23d3-46c5-9d8b-5a9bd875c444.png" alt="">
                         <h4>Figma</h4>
                     </a>
-                    <a href="https://platzi.com/p/bysilvaart/curso/1140-diseno-interfaces-ux-2017/diploma/detalle/" class="course__item" target="_blank">
+                    <a href="https://platzi.com/p/bysilvaart/curso/1140-diseno-interfaces-ux-2017/diploma/detalle/" class="course__item" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.platzi.com/media/achievements/badge-diseno-interfaces-ux-f4591d4c-0fda-4e3b-bbbb-38bb0a61e724.png" alt="">
                         <h4>Diseño de interfaces y UX</h4>
                     </a>
-                    <a href="https://platzi.com/p/bysilvaart/curso/2030-mobile-first/diploma/detalle/" class="course__item" target="_blank">
+                    <a href="https://platzi.com/p/bysilvaart/curso/2030-mobile-first/diploma/detalle/" class="course__item" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.platzi.com/media/achievements/badge-responsive-design-ce53c4fc-a4c3-41e1-a5c8-3931932343a6.png" alt="">
                         <h4>Diseño responsive: Mobile first layout</h4>
                     </a>
-                    <a href="https://platzi.com/p/bysilvaart/curso/1098-ingenieria/diploma/detalle/" class="course__item" target="_blank">
+                    <a href="https://platzi.com/p/bysilvaart/curso/1098-ingenieria/diploma/detalle/" class="course__item" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.platzi.com/media/achievements/badge-ing-software-2017-18f503fd-36bd-42d8-b1a1-492865659687.png" alt="">
                         <h4>Fundamentos de ingeniería del software</h4>
                     </a>
-                    <a href="https://platzi.com/p/bysilvaart/curso/1470-diseno-email/diploma/detalle/" class="course__item" target="_blank">
+                    <a href="https://platzi.com/p/bysilvaart/curso/1470-diseno-email/diploma/detalle/" class="course__item" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.platzi.com/media/achievements/badge-html-css-email-0306f75d-b180-4ccd-996a-b0768001d2f1.png" alt="">
                         <h4>Diseño y maquetación de emails responsive</h4>
                     </a>
-                    <a href="https://platzi.com/p/bysilvaart/curso/2177-organizacion-digital/diploma/detalle/" class="course__item" target="_blank">
+                    <a href="https://platzi.com/p/bysilvaart/curso/2177-organizacion-digital/diploma/detalle/" class="course__item" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.platzi.com/media/achievements/organizacion-digital_-b70aec53-98df-4ff2-ad0d-01c542036734.png" alt="">
                         <h4>Organización digital</h4>
                     </a>
@@ -187,6 +173,7 @@
 
     </div>
     </div>
+    <script src="js/navbar.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>
 </html>
