@@ -20,5 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('theme', theme);
     setIcon(theme);
   });
+
+  const navbar = document.querySelector('.navbar-container');
+  if (navbar) {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+  }
 });
 
