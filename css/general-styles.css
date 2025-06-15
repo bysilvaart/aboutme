@@ -59,6 +59,7 @@ body{
     place-content: center;
     padding: 4px;
     color: var(--navbar-link-color);
+    width: 48px;
 }
 
 .button-icon svg{
