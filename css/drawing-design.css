@@ -69,7 +69,7 @@ h6{
 .main-section__text{
     width: 100%;
     max-width: 720px;
-    color: #E7E7E7;
+    color: var(--not-black);
 }
 
 .drawing-section{
@@ -141,7 +141,7 @@ a{
 }
 
 .button>h4{
-    color: white;
+    color: var(--button-text);
     font-size: 1.8rem;
     text-decoration: none;
 }
@@ -259,7 +259,7 @@ a{
 
 
 .button__text{
-    color: white;
+    color: var(--button-text);
     font-size: 1.8rem;
     font-weight: 400;
 }

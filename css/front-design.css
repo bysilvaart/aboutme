@@ -131,7 +131,7 @@ a{
 }
 
 .button>h4{
-    color: white;
+    color: var(--button-text);
     font-size: 1.8rem;
     text-decoration: none;
 }
@@ -189,7 +189,7 @@ a{
 
 
 .button__text{
-    color: white;
+    color: var(--button-text);
     font-size: 1.8rem;
     font-weight: 400;
 }
