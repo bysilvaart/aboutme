@@ -12,23 +12,7 @@
 </head>
 <body>
     <div class="container page-container">
-        <div class="navbar-container">
-            <nav>
-                <a href="./index.html">
-                    <img src="img/LogoJoseSilva.svg"alt="">
-                </a>
-                <div class="navbar-items">
-                    <a href="./index.html">Inicio</a>
-                    <a href="./drawing-design.html">Dibujos</a>
-                    <a href="./cv.html" class="read-it">
-                        <h4>Curriculum</h4>
-                    </a>
-                    <button class="button-icon" id="themeToggle" aria-label="Cambiar tema">
-                        <span id="themeToggleIcon"></span>
-                    </button>
-                </div>
-            </nav>
-        </div>
+        <header id="navbar" class="navbar-container" data-current="./ui-design.html"></header>
         <div class="main-section">
             
             <div class="main-section__title main-title__color">
@@ -117,7 +101,7 @@
                     <p>Participé en un reto de Platzi que consistía en hacer un cómic animado en CSS.<br>
                         Soy un poco Otaku, así que hice un manga y quedó entre los 3 mejores.<br>
                         En este proyecto combiné mis habilidades de diseño de UI, ilustración y desarrollo.</p>
-                    <a href="https://bysilvaart.github.io/superhero/" class="read-it" target="_blank">
+                    <a href="https://bysilvaart.github.io/superhero/" class="read-it" target="_blank" rel="noopener noreferrer">
                         <h4>Ir al sitio</h4>
                         <img src="img/arrow-right.svg" alt="">
                     </a>
@@ -131,6 +115,7 @@
 
         </div>
     </div>
+    <script src="js/navbar.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>
 </html>

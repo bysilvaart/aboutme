@@ -239,35 +239,6 @@ h4.skills__item{
 }
 
 
-nav, .navbar-container, .navbar-items{
-    display: flex;
-}
-
-.navbar-container{
-    width: 100%;
-    justify-content: center;
-}
-
-nav{
-    width: 100%;
-    max-width: 960px;
-    justify-content: space-between;
-}
-
-.navbar-items{
-    align-items: center;
-    gap: 56px;
-}
-
-.navbar-items a{
-    color: var(--navbar-link-color);
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-}
 
 /* RESPONSIVE DESIGN */
 
@@ -278,9 +249,6 @@ nav{
         height: 100vh;
     }
 
-    nav, .navbar-container, .navbar-items{
-        display: flex;
-    }
     
     .cv-container{
         flex-direction: row;
