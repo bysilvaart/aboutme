@@ -238,7 +238,7 @@ h4.skills__item{
 
 
 nav, .navbar-container, .navbar-items{
-    display: none;
+    display: flex;
 }
 
 .navbar-container{

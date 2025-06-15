@@ -70,7 +70,16 @@ body{
 .navbar-container{
     position: sticky;
     top: 0;
-    background: var(--background);
+    background: transparent;
     z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-container.scrolled{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme="dark"] .navbar-container.scrolled{
+    background-color: rgba(13, 13, 13, 0.7);
 }
 
