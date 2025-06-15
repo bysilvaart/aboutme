@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   header.innerHTML = `
     <nav>
       <a href="./index.html">
-        <img src="img/LogoJoseSilva.svg" alt="Logo Jose Silva">
+        <img src="img/LogoJoseSilva.svg" alt="Logo José Silva">
       </a>
       <div class="navbar-items">
         ${isHome ? '' : '<a href="./index.html">Inicio</a>'}
