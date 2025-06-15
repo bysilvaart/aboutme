@@ -241,7 +241,7 @@ nav{
 }
 
 .navbar-items a{
-    color: #202020;
+    color: var(--navbar-link-color);
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;

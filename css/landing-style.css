@@ -1,7 +1,7 @@
 body{
     background-size: 100% 100%;
     background-position: 0px 0px,0px 0px,0px 0px;
-    background-image: radial-gradient(30% 60% at 5% 10%, #00134BFF 0%, #2F004AA8 43%, #00000000 100%),radial-gradient(60% 100% at 100% 90%, #1B103BFF 0%, #2B103BBA 22%, #06112F00 100%),radial-gradient(80% 120% at 10% 20%, #06112FFF 0%, #000000FF 100%);
+    background-image: var(--background-gradient);
     width: 100vw;
     height: 100vh;
     display: grid;

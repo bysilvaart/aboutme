@@ -5,18 +5,27 @@
 
 :root{
     --background: #f8f8f8;
+    --background-gradient: #f8f8f8;
     --background-items: linear-gradient(274.43deg, rgba(163, 106, 221, 0.1) 0%, rgba(90, 150, 243, 0.1) 100%);
     --primary-button--normal: linear-gradient(274.43deg, #A36ADD 0%, #5A96F3 100%);
     --primary-button--hover: #5A96F3;
     --secundary-button--normal:#353535;
     --secundary-button--hover:#202020;
     --not-black: #202020;
+    --navbar-link-color: #202020;
     --border-card-color: #A36ADD26;
     font-family:'Lato', sans-serif;
 
    /* CV PAGE */
    --icon-course: 30px;
     /* END CV PAGE */
+}
+
+[data-theme="dark"]{
+    --background: #0d0d0d;
+    --background-gradient: radial-gradient(30% 60% at 5% 10%, #00134BFF 0%, #2F004AA8 43%, #00000000 100%),radial-gradient(60% 100% at 100% 90%, #1B103BFF 0%, #2B103BBA 22%, #06112F00 100%),radial-gradient(80% 120% at 10% 20%, #06112FFF 0%, #000000FF 100%);
+    --navbar-link-color: #ffffff;
+    --not-black: #e7e7e7;
 }
 
 *{
@@ -30,8 +39,24 @@
     background-image: var(--primary-button--normal);
     background-size: 100%;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+}
+
+.button-icon{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    padding: 4px;
+    color: var(--navbar-link-color);
+}
+
+.button-icon svg{
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
 }
 
