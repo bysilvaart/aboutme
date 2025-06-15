@@ -20,7 +20,9 @@ body{
 .cv-container{
     padding: 30px 10px;
     gap: 60px;
-    max-width: 400px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 h3{
@@ -284,7 +286,7 @@ nav{
         flex-direction: row;
         gap: 80px;
         align-items: center;
-        max-width: 865px;
+        max-width: 960px;
         height: 600px;
         overflow: hidden;
         padding: 0;

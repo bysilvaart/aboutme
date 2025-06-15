@@ -64,6 +64,8 @@ h6>b{
     flex-direction: column;
     gap: 240px;
     width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
     padding: 8.0rem 1rem;
     overflow-y: scroll;
     align-items: center;
