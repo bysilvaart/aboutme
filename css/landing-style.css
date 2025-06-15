@@ -129,6 +129,11 @@ a{
     color: var(--not-black);
 }
 
+/* Hide navbar links on home page */
+body.home .navbar-items a{
+    display: none;
+}
+
 @media (min-width:720px){
     .container__main-content{
         flex-direction: row;
