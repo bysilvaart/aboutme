@@ -50,8 +50,9 @@ h6{
 .container, .main-section, .front-section, .designs-section__description, .card{
     display: flex;
     flex-direction: column;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
     align-items: flex-start;
 }
 
